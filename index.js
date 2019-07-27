@@ -14,8 +14,8 @@ class MessageProgress {
      * @memberof MessageProgress
      */
     constructor(tasks, message, done_emoji, loading_emoji) {
-        if (Array.isArray(tasks)) throw new TypeError('tasks has to be an array, but got ' + typeof tasks);
-        if (typeof message === 'undefined' && typeof message.edit !== 'function') throw new TypeError('message is not a valid message');
+        if (!Array.isArray(tasks)) throw new TypeError('tasks has to be an array, but got ' + typeof tasks);
+        if (typeof message === 'undefined' || typeof message.edit !== 'function') throw new TypeError('message is not a valid message');
 
         this.tasks = tasks.map(x => ({
             done: false,
