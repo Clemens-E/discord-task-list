@@ -1,0 +1,26 @@
+{
+    "name": "discord-message-tasks",
+    "version": "1.0.0",
+    "description": "Create a simple task list within discord messages",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Clemens-E/discord-task-list.git"
+    },
+    "keywords": [
+        "discord",
+        "tasklist",
+        "loading",
+        "progress"
+    ],
+    "author": "Clemens Ertle",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Clemens-E/discord-task-list/issues"
+    },
+    "homepage": "https://github.com/Clemens-E/discord-task-list#readme",
+    "dependencies": {}
+}
