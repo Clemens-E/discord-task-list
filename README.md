@@ -1,6 +1,6 @@
 # Discord Task Progress Messages
 Mainly used for my Discord Bots\
-Just shows a simple checklist in Discord Messages
+Just shows a simple checklist in Discord Messages, also supports Typescript
 ## Example:
 ![Example](http://g.recordit.co/uwoKYKJRuw.gif)
 
