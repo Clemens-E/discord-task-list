@@ -1,4 +1,4 @@
-declare module 'discord-task-list'
+declare module 'discord-message-tasks'
 {
     export = MessageTasks;
     class MessageTasks {
