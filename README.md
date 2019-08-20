@@ -9,7 +9,7 @@ Just shows a simple checklist in Discord Messages, also supports Typescript
 // Create Once
 const dtl = new(require('discord-task-list'))('✅', '✖') // <= pass custom emojis/text here
 
-const progress = dtl.newProgress(['task 1', 'task 2', 'launching rocket'], mesage); // message = discord.js message object 
+const progress = dtl.newProgress(['task 1', 'task 2', 'launching rocket'], message); // message = discord.js message object 
 await dtl.start();
 // do stuff
 await progress.next();
